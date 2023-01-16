@@ -10,7 +10,7 @@ The data files are pushed to the repository for convenience.
 
 
 # The Problem to Solve
-We are trying to solve a problem of matrix completion, a unsupervised learning task. The row represents a student entity, while each column represents a question entity. More specifically, ach entry $(i, j)$ of the matrix corresponds to whether a student $i$ can correctly answer a question $j$ or not (so it takes value either $0$ or $1$). 
+We are trying to solve an unsupervised learning task of matrix completion --- filling up the missing values of a matrix data given. The row represents a student entity, while each column represents a question entity. More specifically, ach entry $(i, j)$ of the matrix corresponds to whether a student $i$ can correctly answer a question $j$ or not (so it takes value either $0$ or $1$). 
 
 A figure that summarizes the context is shown below.
 
@@ -18,6 +18,7 @@ A figure that summarizes the context is shown below.
 
 
 # Neural Network Architecture
+We adopt auto-encoder (AE) as our model backbone. We propose several add-on modification to the simple AE architecture and showcased the improvement of accuracies.
 
 Here is a sketch for the architecture of the neural networks (corresponds to the first 3 methods written in the [final_report.pdf](https://github.com/haojunqiu/csc311-project/blob/main/final_report.pdf)).The meaning of the notations are listed in same pdf above (right below where this figure locates in the pdf).
 ![alt text](https://github.com/haojunqiu/csc311-project/blob/main/img/nn.png)
