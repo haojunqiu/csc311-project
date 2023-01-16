@@ -18,7 +18,7 @@ A figure that summarizes the context is shown below.
 
 
 # Neural Network Architecture
-We adopt auto-encoder (AE) as our model backbone. We propose several add-on modification to the simple AE architecture and showcased the improvement of accuracies.
+We adopt auto-encoder (AE) as our model backbone. We propose several add-on modification to the simple AE architecture and showcased the improvement of prediction accuracy.
 
 Here is a sketch for the architecture of the neural networks (corresponds to the first 3 methods written in the [final_report.pdf](https://github.com/haojunqiu/csc311-project/blob/main/final_report.pdf)).The meaning of the notations are listed in same pdf above (right below where this figure locates in the pdf).
 ![alt text](https://github.com/haojunqiu/csc311-project/blob/main/img/nn.png)
