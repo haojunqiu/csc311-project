@@ -25,7 +25,7 @@ Here is a sketch for the architecture of the neural networks (corresponds to the
 
 
 # Results
-The accuracy we achived on the private dataset is shown below (a systematic study of all methods).
+The accuracy we achived on the publically given dataset is shown below (a systematic study of all methods).
 ![alt text](https://github.com/haojunqiu/csc311-project/blob/main/img/results.png)
 
 On the preserved dataset for compeition, on [Kaggle](https://www.kaggle.com/competitions/csc311-fall-2022), our team achives **top-3** accuracy among 25 teams.
