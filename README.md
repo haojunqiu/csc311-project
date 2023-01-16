@@ -19,7 +19,7 @@ A figure that summarizes the context is shown below.
 
 # Neural Network Architecture
 
-Here is a sketch for the architecture of the neural networks (corresponds to the first 3 methods written in the [final_report.pdf](https://github.com/haojunqiu/csc311-project/blob/main/final_report.pdf)).The meaning of the notations are listed in the report as well (right below where this figure locates).
+Here is a sketch for the architecture of the neural networks (corresponds to the first 3 methods written in the [final_report.pdf](https://github.com/haojunqiu/csc311-project/blob/main/final_report.pdf)).The meaning of the notations are listed in same pdf above (right below where this figure locates in the pdf).
 ![alt text](https://github.com/haojunqiu/csc311-project/blob/main/img/nn.png)
 
 
